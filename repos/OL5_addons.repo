@@ -1,0 +1,5 @@
+[OL5_addons]
+name=OL5_addons
+baseurl=http://tx1infoyum01/EnterpriseLinux/EL5/addons/x86_64/
+enabled=1
+

@@ -1,0 +1,5 @@
+[OracleVM_3.2.X_Latest]
+name=OracleVM_3.2.X_Latest
+baseurl=http://yum-tx1/OracleVM/OVM3/latest/x86_64/
+enabled=1
+

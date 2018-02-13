@@ -1,0 +1,5 @@
+[OL6_Addons]
+name=OL6_addons
+baseurl=http://yum-tx1/OracleLinux/OL6/addons/x86_64/
+enabled=1
+

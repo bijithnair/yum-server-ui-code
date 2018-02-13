@@ -1,0 +1,5 @@
+[OL7_Latest_UEK3]
+name=OL7_Latest_UEK3
+baseurl=http://yum-tx1/OracleLinux/OL7/UEKR3/x86_64/
+enabled=1
+

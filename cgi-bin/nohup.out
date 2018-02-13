@@ -1,0 +1,478 @@
+## BEGIN PROCESSING el5_x86_64_addons ##
+Channel Dir: /var/www/html/yum/EnterpriseLinux/EL5/addons/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING el5_x86_64_addons ##
+## BEGIN PROCESSING ol5_x86_64_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL5/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol5_x86_64_latest ##
+## BEGIN PROCESSING ol5_x86_64_UEK_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL5/UEK/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol5_x86_64_UEK_latest ##
+## BEGIN PROCESSING ol6_x86_64_addons ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL6/addons/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol6_x86_64_addons ##
+## BEGIN PROCESSING ol6_x86_64_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL6/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol6_x86_64_latest ##
+## BEGIN PROCESSING ol6_x86_64_UEK_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL6/UEK/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol6_x86_64_UEK_latest ##
+## BEGIN PROCESSING ol6_x86_64_UEKR3_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL6/UEKR3/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol6_x86_64_UEKR3_latest ##
+## BEGIN PROCESSING ol6_x86_64_UEKR4 ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL6/UEKR4/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol6_x86_64_UEKR4 ##
+## BEGIN PROCESSING ol7_x86_64_addons ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL7/addons/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol7_x86_64_addons ##
+## BEGIN PROCESSING ol7_x86_64_latest ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL7/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol7_x86_64_latest ##
+## BEGIN PROCESSING ol7_x86_64_UEKR3 ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL7/UEKR3/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol7_x86_64_UEKR3 ##
+## BEGIN PROCESSING ol7_x86_64_UEKR4 ##
+Channel Dir: /var/www/html/yum/OracleLinux/OL7/UEKR4/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ol7_x86_64_UEKR4 ##
+## BEGIN PROCESSING ovm34_x86_64_latest ##
+Channel Dir: /var/www/html/yum/OracleVM/OVM34/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ovm34_x86_64_latest ##
+## BEGIN PROCESSING ovm3_x86_64_latest ##
+Channel Dir: /var/www/html/yum/OracleVM/OVM3/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ovm3_x86_64_latest ##
+## BEGIN PROCESSING ovm3x_x86_64_latest ##
+Channel Dir: /var/www/html/yum/unknown/OVM3X/latest/x86_64
+Loaded plugins: rhnplugin
+Traceback (most recent call last):
+  File "/bin/reposync", line 343, in <module>
+    main()
+  File "/bin/reposync", line 148, in main
+    my.doConfigSetup(fn=opts.config, init_plugins=opts.plugins)
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 294, in doConfigSetup
+    return self.conf
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 1083, in <lambda>
+    conf = property(fget=lambda self: self._getConfig(),
+  File "/usr/lib/python2.7/site-packages/yum/__init__.py", line 416, in _getConfig
+    self.plugins.run('init')
+  File "/usr/lib/python2.7/site-packages/yum/plugins.py", line 188, in run
+    func(conduitcls(self, self.base, conf, **kwargs))
+  File "/usr/share/yum-plugins/rhnplugin.py", line 121, in init_hook
+    login_info = up2dateAuth.getLoginInfo(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 227, in getLoginInfo
+    login(timeout=timeout)
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 199, in login
+    writeCachedLogin() #pickle global loginInfo
+  File "/usr/share/rhn/up2date_client/up2dateAuth.py", line 105, in writeCachedLogin
+    expireTime = data['time'] + float(loginInfo['X-RHN-Auth-Expire-Offset'])
+KeyError: 'X-RHN-Auth-Expire-Offset'
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+## END PROCESSING ovm3x_x86_64_latest ##
+## START HARDLINK PROCESSING ##
+
+
+Hard linking Statistics:
+Directories           : 62
+Regular files         : 58331
+Comparisons           : 1
+Hardlinked this run   : 0
+Total hardlinks       : 1457
+Bytes saved this run  : 0 (0 bytes)
+Total bytes saved     : 3057292949 (2.847 gibibytes)
+Total run time        : 5.18546104431 seconds
+## END HARDLINK PROCESSING ##

@@ -1,0 +1,5 @@
+[OL5_Latest]
+name=OL5_Latest
+baseurl=http://yum-tx1/OracleLinux/OL5/latest/x86_64/
+enabled=1
+

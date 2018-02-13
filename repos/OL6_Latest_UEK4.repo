@@ -1,0 +1,5 @@
+[OL6_Latest_UEK4]
+name=OL6_Latest_UEK4
+baseurl=http://yum-tx1/OracleLinux/OL6/UEKR4/x86_64/
+enabled=1
+

@@ -1,0 +1,5 @@
+[OL7_addons]
+name=OL7_addons
+baseurl=http://yum-tx1/OracleLinux/OL7/addons/x86_64/
+enabled=1
+
